@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cebedaac72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="nav-bar">
+    <div class="nav-logo">
+        <img src="corona2.png">
+    </div>
+
+</div>
+<h1 id="heading"><span class="first">Corona</span> Tracker</h1>
+<div class="container">
+    <form id="form">
+        <input type="text" id="country-input" placeholder="Enter the name of country" class="country-input">
+        <button class="btn" id="btn">Collect Data</button>
+    </form>
+    <table id="table" class="table">
+        <tr>
+            <th>Country</th>
+            <th><span class="first">New</span> Confirmed</th>
+            <th>Total <span class="first">Confirmed</span> </th></th>
+            <th><span class="first">New</span> Deaths</th></th>
+            <th>Total <span class="first">Deaths</span> </th></th>
+            <th><span class="first">New</span> Recovered</th></th>
+            <th>Total <span class="first">Recovered</span> </th></th>
+        </tr>
+        <tr id="first-row">
+            <td><b>World-Wide</td>
+        </tr>
+    </table>
+
+    <canvas id="chart"></canvas>
+</div>
+</div>
+<script src="script1.js"></script>
+</body>
+</html>
